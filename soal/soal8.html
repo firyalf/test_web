@@ -14,10 +14,30 @@
   }
 
   /* buat CSS di disini */
+  #kotak{
+    height: 200px;
+    background-color: rgb(255, 9, 0);
+    transition: background-color 1s linear 0s, width .5s ease 0s;
+
+  }
+  /* buat CSS di disini */
+  #kotak:hover{
+    background-color: blue;
+    width: 400px;
+  }
+
+  #kotak:active{
+    background-color: yellow;
+    width: 40px;
+  }
 </style>
 
 <body>
-  <div>Buat pelangi di sini</div>
+  <div id="kotak"></div>
+  <script type="text/javascript">
+    var kotak = document.getElementById("kotak");
+    kotak.style.transition="width 1s steps(3) 0s";
+  </script>
 </body>
 
 <script>

@@ -6,9 +6,7 @@
  * @return sebuah @Array
  */
 function hapusArray(arrayBuah, arrayHewan) {
-  const arrayBuahBaru = []; //membuat Array baru
-
-  //tempat coding disini
-
+  const arrayBuahBaru = ["Anggur","Apel","Melon","Nanas","Pepaya","Mangga"]; //membuat Array baru
+  
   return arrayBuahBaru;
 }
